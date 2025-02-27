@@ -2595,7 +2595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 150.622 62.23 90)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C4256393"
+		(property "MPN" "C4256393"
 			(at 150.114 62.23 90)
 			(effects
 				(font
@@ -2762,7 +2762,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2921128"
+		(property "MPN" "C2921128"
 			(at 129.54 52.832 0)
 			(effects
 				(font
@@ -2846,7 +2846,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C49018"
+		(property "MPN" "C49018"
 			(at 146.05 53.594 0)
 			(effects
 				(font
