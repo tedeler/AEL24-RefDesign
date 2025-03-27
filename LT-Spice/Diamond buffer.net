@@ -1,0 +1,26 @@
+* D:\Dateien\Git\AEL24-RefDesign\LT-Spice\Diamond buffer.asc
+V2 N001 0 12
+V1 N003 0 SINE(0 1 1000 0) AC 1. Rser=0
+Q1 N001 N002 N006 0 BC550CH
+Q2 0 N007 N006 0 BC560CH
+R1 N001 N002 2k
+R2 N007 0 2k
+Q3 0 N005 N002 0 BC560CH
+Q4 N001 N005 N007 0 BC550CH
+C1 N005 N004 100n
+R3 N001 N005 2Meg
+R4 N005 0 2Meg
+C2 out N006 100µ
+R5 out 0 1k
+R6 N003 0 2Meg
+C3 N004 0 2n2
+R7 N004 N003 47
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Tobias\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 11m 1m 100n
+* .TEMP -10
+* .noise V(out) V1 oct 101 1 1g
+* .ac oct 101 1 100g
+.backanno
+.end
