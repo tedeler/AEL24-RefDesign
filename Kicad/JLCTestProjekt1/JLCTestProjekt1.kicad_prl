@@ -33,7 +33,6 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -87,16 +86,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
+      186,
+      171,
+      112,
+      87,
+      112,
+      122,
+      112,
       91,
-      72,
-      91,
-      100,
-      91,
-      76,
-      91,
-      91
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
